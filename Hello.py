@@ -25,5 +25,16 @@ print(name.title())
 # print(magicans[5:3])
 
 #元组
-dimentions = (50, 200)
+# dimentions = (50, 200)
 
+#字典
+alien = {
+    'name': 'AX',
+    'age':19
+}
+
+print(alien);
+
+message = input("please type your age:\n");
+message=int(message);
+print(message+88);
